@@ -1,5 +1,5 @@
-name: MinecraftStory Kits
-main: com.MinecraftStory.MinecraftStoryKits
+name: MinecraftStoryKits
+main: com.MinecraftStory.Kits
 version: 1.0
 commands:
     kit:

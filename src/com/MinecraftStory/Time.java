@@ -16,10 +16,10 @@ public class Time {
 	}
 
 	public String getFormat() {
-		String day = pluralForm(this.days, " день ", " дня ", " дней ");
-		String hour = pluralForm(this.hours, " час ", " часа ", " часов ");
-		String min = pluralForm(this.minutes, " минуту ", " минуты ", " минут ");
-		String sec = pluralForm(this.seconds, " секунду.", " секунды.", " секунд.");
+		String day = pluralForm(this.days, " РґРµРЅСЊ ", " РґРЅСЏ ", " РґРЅРµР№ ");
+		String hour = pluralForm(this.hours, " С‡Р°СЃ ", " С‡Р°СЃР° ", " С‡Р°СЃРѕРІ ");
+		String min = pluralForm(this.minutes, " РјРёРЅСѓС‚Сѓ ", " РјРёРЅСѓС‚С‹ ", " РјРёРЅСѓС‚ ");
+		String sec = pluralForm(this.seconds, " СЃРµРєСѓРЅРґСѓ.", " СЃРµРєСѓРЅРґС‹.", " СЃРµРєСѓРЅРґ.");
 		String format = this.days + day + this.hours + hour + this.minutes + min + this.seconds + sec;
 		if (this.days == 0) {
 			format = this.hours + hour + this.minutes + min + this.seconds + sec;
